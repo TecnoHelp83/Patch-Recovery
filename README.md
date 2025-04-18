@@ -7,7 +7,8 @@ This CI service patches recovery images of Samsung to enable Fastbootd. Based on
 
 # How to use:
 - Fork this repo.
-- Extract your recovery.img.lz4 and upload recovery.img or *img.lz4 to nextcloud or any other file hosting sites. Once uploaded right click on the Download button and copy the URL.
+- Extract your recovery.img.lz4 and upload recovery.img or *img.lz4 to nextcloud or any other file hosting sites.
+- I used nextcloud - Upload->copy share link -> open new istance of browser or logout from Nextcloud -> paste the link -> right click on Download Button-> copy the link.
 - Head over to Actions tab. Click on RECOVERY -> Run workflow. Insert the copied URL in the RECOVERY URL field and Start the workflow
 - The Patching process will start
 - A Patched-Recovery.zip will be uploaded at the end of the process. Download it and extract your patched recovery image. The Image will already also be repacked to .tar for flashing directly through Odin
